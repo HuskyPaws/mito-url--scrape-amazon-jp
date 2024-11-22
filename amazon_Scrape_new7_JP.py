@@ -89,7 +89,7 @@ def scrape_data(url, api_key, max_retries=5, initial_delay=2):
                 "api_key": api_key,
                 "url": url,
                 "premium_proxies": True,
-                "country": "jp",  # Changed to jp for Japanese Amazon
+                "country": "us",  # Changed to jp for Japanese Amazon
                 "elements": [
                     {
                         "type": "xpath",
